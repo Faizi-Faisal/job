@@ -1,0 +1,39 @@
+.bottom-nav {
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    position: fixed;
+    bottom: -1px; /* 10px margin from the bottom */
+    left: 0;
+    right: 0;
+    width: 100%; /* Adjust the width to ensure it fits well with the margin */
+    border-radius: 12px; /* Optional: add some border-radius to make it more visually appealing */
+    display: flex;
+    justify-content: space-around; /* Distribute the items evenly */
+    align-items: center; /* Center align items vertically */
+  }
+  
+  .bottom-nav .nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .bottom-nav .nav-link {
+    color: #888;
+    font-size: 10px;
+    text-decoration: none;
+  }
+  
+  .bottom-nav .nav-link i {
+    font-size: 12px;
+    margin-bottom: 4px; /* Add space between icon and text */
+  }
+  
+  .bottom-nav .nav-link.active {
+    color: #48987b; /* Green color */
+  }
+  

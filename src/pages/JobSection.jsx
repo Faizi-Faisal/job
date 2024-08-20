@@ -65,6 +65,7 @@ const JobPortal = () => {
             <div className="job-details">
               <h5 className="job-title">Frontend Developer</h5>
               <p className="job-subtitle">Remote</p>
+              <p className="job-subtitle">Preffered By: Boys</p>
             </div>
             <span className="job-price">$5000</span>
           </div>
@@ -74,6 +75,7 @@ const JobPortal = () => {
             <div className="job-details">
               <h5 className="job-title">Frontend Developer</h5>
               <p className="job-subtitle">Remote</p>
+              <p className="job-subtitle">Preffered By: Boys</p>
             </div>
             <span className="job-price">$5000</span>
           </div>
@@ -83,6 +85,7 @@ const JobPortal = () => {
             <div className="job-details">
               <h5 className="job-title">Frontend Developer</h5>
               <p className="job-subtitle">Remote</p>
+              <p className="job-subtitle">Preffered By: Boys</p>
             </div>
             <span className="job-price">$5000</span>
           </div>      

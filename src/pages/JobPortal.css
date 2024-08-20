@@ -21,7 +21,7 @@
 /* Placeholder text color */
 .search-bar::placeholder {
     color: #48987b; /* Green placeholder text color */
-    font-size: 12px;
+    font-size: 16px;
 }
 
 /* Filtering icon styles */

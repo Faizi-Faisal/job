@@ -16,6 +16,7 @@
     flex: 1;
     color: #000000; /* Black text color */
     background: transparent; /* Make background transparent to use container's background color */
+    font-size: 16px;
 }
 
 /* Placeholder text color */

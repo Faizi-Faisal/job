@@ -24,12 +24,12 @@
   
   .bottom-nav .nav-link {
     color: #888;
-    font-size: 10px;
+    font-size: 12px;
     text-decoration: none;
   }
   
   .bottom-nav .nav-link i {
-    font-size: 12px;
+    font-size: 16px;
     margin-bottom: 4px; /* Add space between icon and text */
   }
   

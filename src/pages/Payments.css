@@ -43,7 +43,7 @@
     width: 100%;
     background: transparent; /* Transparent background */
     text-align: center;
-    padding: 10px;
+  
     z-index: 900; /* Ensure it is below the header but above other content */
 }
 
@@ -70,7 +70,6 @@
     background: transparent; /* Transparent background */
     display: flex;
     justify-content: space-around;
-    padding: 10px;
     z-index: 800; /* Ensure it is below the payment section but above other content */
 }
 

@@ -13,7 +13,6 @@
     top: 0;
     left: 0;
     width: 100%;
-    background: radial-gradient(328px at 2.9% 15%, rgb(191, 224, 251) 0%, rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%, rgb(234, 251, 251) 77.6%, rgb(240, 251, 244) 100.7%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -137,6 +136,9 @@
 .paymentpagesection-info {
     flex: 1;
     margin-left: 10px;
+}
+.paymentpagesection-transaction {
+    height: 50px;
 }
 
 .paymentpagesection-transaction-id {

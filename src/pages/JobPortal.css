@@ -1,4 +1,15 @@
-/* Base styles for search bar container */
+.job-portal-container {
+    background: radial-gradient(328px at 2.9% 15%, rgb(191, 224, 251) 0%, rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%, rgb(234, 251, 251) 77.6%, rgb(240, 251, 244) 100.7%);
+    width: 100%;
+    max-width: 100vw;
+    margin: 0;
+
+}
+.job-portal-container-inner {
+    padding: 10px;
+}
+
+
 .search-bar-container {
     display: flex;
     align-items: center;
@@ -147,14 +158,16 @@
 /* Jobs For You Section */
 .jobs-for-you {
     background-color: #f9f9f9;
+    padding: 5px; /* Added padding for better spacing */
+    margin-bottom: 80px;
 }
 
 .jobs-for-you-title {
     font-size: 14px;
     font-weight: bold;
-    margin-bottom: 15px;
     color: #333;
-    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: start; /* Centering the title */
 }
 
 .jobs-container {
@@ -165,13 +178,16 @@
 
 .job-item {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
     background: #fff;
-    padding: 10px;
+    padding: 15px; /* Increased padding for better spacing */
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    height: 70px;
+}
+
+.upper-section {
+    display: flex;
+    align-items: center;
 }
 
 .job-avatar {
@@ -182,24 +198,38 @@
 
 .job-details {
     flex-grow: 1;
-    margin-left: 15px;
+    margin-left: 15px; /* Adjusted margin for better spacing */
+    text-align: start;
 }
 
 .job-title {
     margin: 0;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: bold;
     color: #333;
 }
 
 .job-subtitle {
     margin: 0;
-    font-size: 10px;
+    font-size: 14px;
     color: #666;
 }
 
-.job-price {
+.lower-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
     font-size: 12px;
+}
+
+.job-tag {
+    font-size: 12px;
+    color: #888;
+}
+
+.job-price {
+    font-size: 14px;
     font-weight: bold;
     color: #48987b;
 }

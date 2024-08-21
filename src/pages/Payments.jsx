@@ -44,6 +44,24 @@ const Payments = () => {
             <div className="paymentpagesection-amount" style={{fontSize:'16px',fontWeight:'bold',color:'green',marginRight:'5px'}}>₹ 500</div>
           </div>
 
+
+          <div className="paymentpagesection-transaction">
+            <div className="paymentpagesection-avatar" style={{fontSize:'12px'}}>Paid</div>
+            <div className="paymentpagesection-info">
+              <div className="paymentpagesection-transaction-id" style={{fontSize:'14px'}}>123456789</div>
+              <div className="paymentpagesection-date" style={{fontSize:'12px'}}>21-08-2024</div>
+            </div>
+            <div className="paymentpagesection-amount" style={{fontSize:'16px',fontWeight:'bold',color:'green',marginRight:'5px'}}>₹ 750</div>
+          </div>
+          <div className="paymentpagesection-transaction">
+            <div className="paymentpagesection-avatar" style={{fontSize:'12px'}}>Paid</div>
+            <div className="paymentpagesection-info">
+              <div className="paymentpagesection-transaction-id" style={{fontSize:'14px'}}>123456789</div>
+              <div className="paymentpagesection-date" style={{fontSize:'12px'}}>21-08-2024</div>
+            </div>
+            <div className="paymentpagesection-amount" style={{fontSize:'16px',fontWeight:'bold',color:'green',marginRight:'5px'}}>₹ 1500</div>
+          </div>
+
           
           {/* Add more .paymentpagesection-transaction items here as needed */}
         </div>

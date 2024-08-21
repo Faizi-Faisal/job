@@ -5,10 +5,10 @@
     margin: 0;
     height: 100vh;
     position: relative;
-    padding-top: 60px; /* Add padding to accommodate fixed header */
-  }
-  
-  .paymentpagesection-header {
+    padding-top: 120px; /* Adjust padding to accommodate fixed header and sections */
+}
+
+.paymentpagesection-header {
     position: fixed;
     top: 0;
     left: 0;
@@ -19,46 +19,135 @@
     justify-content: center;
     padding: 10px;
     z-index: 1000; /* Ensure header is above other content */
-  }
-  
-  .paymentpagesection-backarrow {
+}
+
+.paymentpagesection-backarrow {
     position: absolute;
     left: 10px;
     background: #f0f0f000; /* Transparent background for back arrow */
     border-radius: 50%;
     padding: 8px;
     cursor: pointer;
-    font-size: 22px;
-  }
-  
-  .paymentpagesection-title {
+    font-size: 28px;
+}
+
+.paymentpagesection-title {
     margin: 0;
     font-weight: 600;
-    font-size: 14px;
-  }
-  
-  .paymentpagesection-payment {
-    margin-top: 10px; /* Adjust margin to ensure it appears below the header */
-    text-align: center;
+    font-size: 20px;
+}
+
+.paymentpagesection-payment {
+    position: fixed;
+    top: 80px; /* Position below the header */
+    left: 0;
+    width: 100%;
     background: transparent; /* Transparent background */
-  }
-  
-  .paymentpagesection-payment h6 {
+    text-align: center;
+    padding: 10px;
+    z-index: 900; /* Ensure it is below the header but above other content */
+}
+
+.paymentpagesection-payment h6 {
     margin: 0;
     font-weight: 600;
-  }
-  
-  .paymentpagesection-amount {
-    font-size: 26px;
+}
+
+.paymentpagesection-amount {
+    font-size: 28px;
     font-weight: 600;
     margin-top: 5px;
-  }
-  
-  .paymentpagesection-rupee {
-    font-size: 24px; /* Adjust size of rupee sign */
-  }
-  
-  .paymentpagesection-container-inner {
+}
+
+.paymentpagesection-rupee {
+    font-size: 20px; /* Adjust size of rupee sign */
+}
+
+.paymentpagesection-details {
+    position: fixed;
+    top: 160px; /* Position below the payment section */
+    left: 0;
+    width: 100%;
+    background: transparent; /* Transparent background */
+    display: flex;
+    justify-content: space-around;
     padding: 10px;
-  }
-  
+    z-index: 800; /* Ensure it is below the payment section but above other content */
+}
+
+.paymentpagesection-pending,
+.paymentpagesection-transferred {
+    text-align: center;
+}
+
+.paymentpagesection-pending h6,
+.paymentpagesection-transferred h6 {
+    margin: 0;
+    font-weight: 600;
+}
+
+.paymentpagesection-history {
+    position: fixed;
+    top: 240px; /* Position below the details section */
+    left: 0;
+    width: 100%;
+    background: transparent; /* Transparent background */
+    padding: 10px;
+    z-index: 700; /* Ensure it is below the details section but above other content */
+}
+
+.paymentpagesection-history h6 {
+    margin: 0;
+    font-weight: 600;
+    text-align: center;
+    font-size: 14px;
+    color: grey;
+}
+
+.paymentpagesection-history-content {
+    max-height: 300px; /* Adjust based on your needs */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.paymentpagesection-transaction {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background: #ffffff; /* Background color for transaction details */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 10px; /* Space between transactions */
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.paymentpagesection-avatar {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #d1eaff; /* Light blue background for avatar */
+    color: #0066cc; /* Dark blue text color */
+    font-weight: bold;
+}
+
+.paymentpagesection-info {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.paymentpagesection-transaction-id {
+    font-weight: 600;
+}
+
+.paymentpagesection-date {
+    font-size: 14px;
+    color: #666;
+}
+
+.paymentpagesection-amount {
+    font-weight: 600;
+}

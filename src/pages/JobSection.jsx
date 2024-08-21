@@ -74,7 +74,7 @@ const JobPortal = () => {
             <div className="lower-section">
               <span className="preferred-tag">Boys</span>
               <span className="slot">Slots Available</span>
-              <span className="job-price">$5000</span>
+              <span className="job-price">₹5000</span>
             </div>
           </div>
 
@@ -89,7 +89,7 @@ const JobPortal = () => {
             <div className="lower-section">
               <span className="preferred-tag">Boys</span>
               <span className="slot">Slots Available</span>
-              <span className="job-price">$5000</span>
+              <span className="job-price">₹5000</span>
             </div>
           </div>
 
@@ -105,4 +105,3 @@ const JobPortal = () => {
 };
 
 export default JobPortal;
-

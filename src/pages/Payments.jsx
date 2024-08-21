@@ -41,7 +41,7 @@ const Payments = () => {
               <div className="paymentpagesection-transaction-id" style={{fontSize:'14px'}}>123456789</div>
               <div className="paymentpagesection-date" style={{fontSize:'12px'}}>21-08-2024</div>
             </div>
-            <div className="paymentpagesection-amount" style={{fontSize:'12px',fontWeight:'bold',color:'green'}}>₹ 500</div>
+            <div className="paymentpagesection-amount" style={{fontSize:'16px',fontWeight:'bold',color:'green',marginRight:'5px'}}>₹ 500</div>
           </div>
 
           

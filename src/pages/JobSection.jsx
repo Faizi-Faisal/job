@@ -6,6 +6,8 @@ import BottomNavBar from './BottomNavBar';
 const JobPortal = () => {
   return (
     <>
+    <div className="job-portal-container">
+    <div className="job-portal-container-inner">
       <Container fluid className="p-3">
         {/* Header */}
         <Row className="mb-4">
@@ -60,43 +62,47 @@ const JobPortal = () => {
       <section className="jobs-for-you">
         <h2 className="jobs-for-you-title">Jobs for You</h2>
         <div className="jobs-container">
+
           <div className="job-item">
-            <Image src="https://media.dev.to/cdn-cgi/image/width=1600,height=900,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fwhh1lpihw7h587pb2iuc.png" roundedCircle className="job-avatar" />
-            <div className="job-details">
-              <h5 className="job-title">Frontend Developer</h5>
-              <p className="job-subtitle">Remote</p>
-              <p className="job-subtitle">Preffered By: Boys</p>
+            <div className="upper-section">
+              <Image src="https://media.dev.to/cdn-cgi/image/width=1600,height=900,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fwhh1lpihw7h587pb2iuc.png" roundedCircle className="job-avatar" />
+              <div className="job-details">
+                <h5 className="job-title">Frontend Developer</h5>
+                <p className="job-subtitle">Remote</p>
+              </div>
             </div>
-            <span className="job-price">$5000</span>
+            <div className="lower-section">
+              <span className="preferred-tag">Boys</span>
+              <span className="slot">Slots Available</span>
+              <span className="job-price">$5000</span>
+            </div>
           </div>
 
           <div className="job-item">
-            <Image src="https://media.dev.to/cdn-cgi/image/width=1600,height=900,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fwhh1lpihw7h587pb2iuc.png" roundedCircle className="job-avatar" />
-            <div className="job-details">
-              <h5 className="job-title">Frontend Developer</h5>
-              <p className="job-subtitle">Remote</p>
-              <p className="job-subtitle">Preffered By: Boys</p>
+            <div className="upper-section">
+              <Image src="https://media.dev.to/cdn-cgi/image/width=1600,height=900,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fwhh1lpihw7h587pb2iuc.png" roundedCircle className="job-avatar" />
+              <div className="job-details">
+                <h5 className="job-title">Frontend Developer</h5>
+                <p className="job-subtitle">Remote</p>
+              </div>
             </div>
-            <span className="job-price">$5000</span>
+            <div className="lower-section">
+              <span className="preferred-tag">Boys</span>
+              <span className="slot">Slots Available</span>
+              <span className="job-price">$5000</span>
+            </div>
           </div>
-
-           <div className="job-item">
-            <Image src="https://media.dev.to/cdn-cgi/image/width=1600,height=900,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fwhh1lpihw7h587pb2iuc.png" roundedCircle className="job-avatar" />
-            <div className="job-details">
-              <h5 className="job-title">Frontend Developer</h5>
-              <p className="job-subtitle">Remote</p>
-              <p className="job-subtitle">Preffered By: Boys</p>
-            </div>
-            <span className="job-price">$5000</span>
-          </div>      
 
           {/* Repeat the above div.job-item for more job listings */}
         </div>
       </section>
 
-      <BottomNavBar /> 
+      <BottomNavBar />
+      </div>
+      </div>
     </>
   );
 };
 
 export default JobPortal;
+

@@ -24,39 +24,39 @@ const Profile = () => {
         </div>
 
         <div className="profilepagejob-list-group">
-          <button className="profilepagejob-list-item">
+          <button className="profilepagejob-list-item" style={{color:'#000', fontSize:'14px'}}>
             Job seeking status
             <i className="profilepagejob-icon-chevron-right"></i>
           </button>
-          <button className="profilepagejob-list-item">
+          <button className="profilepagejob-list-item" style={{color:'#000', fontSize:'14px'}}>
             Personal information
             <i className="profilepagejob-icon-chevron-right"></i>
           </button>
-          <button className="profilepagejob-list-item">
+          <button className="profilepagejob-list-item" style={{color:'#000', fontSize:'14px'}}>
             Linked accounts
             <i className="profilepagejob-icon-chevron-right"></i>
           </button>
-          <button className="profilepagejob-list-item">
+          <button className="profilepagejob-list-item" style={{color:'#000', fontSize:'14px'}}>
             Notification
             <i className="profilepagejob-icon-chevron-right"></i>
           </button>
-          <button className="profilepagejob-list-item">
+          <button className="profilepagejob-list-item" style={{color:'#000', fontSize:'14px'}}>
             Application status
             <span className="profilepagejob-badge">12</span>
           </button>
-          <button className="profilepagejob-list-item">
+          <button className="profilepagejob-list-item" style={{color:'#000', fontSize:'14px'}}>
             Security
             <i className="profilepagejob-icon-chevron-right"></i>
           </button>
-          <button className="profilepagejob-list-item">
+          <button className="profilepagejob-list-item" style={{color:'#000', fontSize:'14px'}}>
             Language
             <span className="profilepagejob-text-muted">English (US)</span>
           </button>
-          <button className="profilepagejob-list-item">
+          <button className="profilepagejob-list-item" style={{color:'#000', fontSize:'14px'}}>
             Help center
             <i className="profilepagejob-icon-chevron-right"></i>
           </button>
-          <button className="profilepagejob-list-item">
+          <button className="profilepagejob-list-item" style={{color:'#000', fontSize:'14px'}}>
             Invite friends
             <i className="profilepagejob-icon-chevron-right"></i>
           </button>
@@ -70,3 +70,4 @@ const Profile = () => {
 };
 
 export default Profile;
+

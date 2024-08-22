@@ -4,6 +4,7 @@ import './App.css';
 import HomePage from './pages/HomePage';
 import WorkHistory from './pages/WorkHistory';
 import Payments from './pages/Payments';
+import Profile from './pages/Profile';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/work-history" element={<WorkHistory />} />
         <Route path="/payments" element={<Payments />} />
+        <Route path="/profile" element={<Profile />} />
         <Route
           path="*"
           element={
@@ -27,4 +29,3 @@ function App() {
 }
 
 export default App;
-

@@ -5,6 +5,9 @@ import HomePage from './pages/HomePage';
 import WorkHistory from './pages/WorkHistory';
 import Payments from './pages/Payments';
 import Profile from './pages/Profile';
+import AdDash from './Admin/AdDash';
+import Login from './pages/Login';
+import Singup from './pages/Singup';
 
 function App() {
 
@@ -15,6 +18,9 @@ function App() {
         <Route path="/work-history" element={<WorkHistory />} />
         <Route path="/payments" element={<Payments />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/addaashpage" element={<AdDash />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/sign-up" element={<Singup />} />
         <Route
           path="*"
           element={

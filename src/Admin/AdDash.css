@@ -1,0 +1,136 @@
+.adddashaddjob-dashboard-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+    justify-content: space-around;
+}
+
+.adddashaddjob-dashboard-box {
+    flex: 1 1 calc(33.33% - 40px);
+    max-width: calc(33.33% - 40px);
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.adddashaddjob-dashboard-box:hover {
+    transform: translateY(-5px);
+}
+
+.adddashaddjob-dashboard-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.adddashaddjob-dashboard-text {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.adddashaddjob-bottom-sheet {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    max-height: 80%;
+    overflow: hidden;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+}
+
+.adddashaddjob-bottom-sheet-content {
+    padding: 20px;
+    overflow-y: auto;
+    flex-grow: 1;
+}
+
+.adddashaddjob-bottom-sheet-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.adddashaddjob-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.adddashaddjob-form label {
+    margin-bottom: 10px;
+}
+
+.adddashaddjob-form input, 
+.adddashaddjob-form textarea, 
+.adddashaddjob-form select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.adddashaddjob-checkbox-group label {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.adddashaddjob-submit-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    align-self: flex-end;
+}
+
+.adddashaddjob-submit-btn:hover {
+    background-color: #0056b3;
+}
+
+.adddashaddjob-image-preview {
+    margin-top: 10px;
+    position: relative;
+}
+
+.adddashaddjob-image-preview img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.adddashaddjob-remove-image-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+/* Mobile layout: two boxes per row */
+@media (max-width: 768px) {
+    .adddashaddjob-dashboard-box {
+        flex: 1 1 calc(50% - 20px);
+        max-width: 120px;
+        margin: 10px 0; 
+    }
+}

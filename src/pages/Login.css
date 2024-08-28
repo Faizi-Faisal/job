@@ -1,0 +1,78 @@
+.loginjob-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: start;
+    box-sizing: border-box; /* Ensures padding doesn't cause overflow */
+    overflow-x: hidden; /* Hides any potential horizontal overflow */
+  }
+  
+  .loginjob-heading {
+    margin-top: 50px;
+    margin-bottom: 80px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .loginjob-vector img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .loginjob-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .loginjob-form-group {
+    margin-bottom: 15px;
+  }
+  
+  .loginjob-form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .loginjob-form-group input {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    box-sizing: border-box; /* Ensures padding doesn't cause overflow */
+  }
+  
+  .loginjob-button {
+    padding: 15px;
+    font-size: 20px;
+    background-color: #48987b;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  .loginjob-button:hover {
+    background-color: #5bc7a0;
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 600px) {
+    .loginjob-container {
+      padding: 10px;
+    }
+  
+    .loginjob-heading {
+      font-size: 18px;
+    }
+  
+    .loginjob-form-group input {
+      padding: 15px;
+      font-size: 14px;
+    }
+  
+    .loginjob-button {
+      padding: 15px;
+      font-size: 18px;
+    }
+  }
+  
